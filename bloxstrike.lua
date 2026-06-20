@@ -1,5 +1,5 @@
 --[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+    Xev0r | Bloxstrike
 ]]
 local genv = getgenv()
 local _ = genv.debug
@@ -11,12 +11,12 @@ print(loadstring)
 print(getgenv().loadstring)
 
 loadstring([=[
-local allowedPlaces = {114234929420007, 108194354348181, 135434213652028}
+local allowedPlaces = {114234929420007, 108194354348181, 135434213652028, 1781943698488, 123974602339071}
 if not table.find(allowedPlaces, game.PlaceId) then 
     game:GetService("Players").LocalPlayer:Kick("wrong game, the game to execute this script it's bloxstrike")
     return 
 end
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Cracked By FolloHub", Text = "discord.gg/cXwvDJvY7x", Duration = 10})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "xev0r | BLOXSTRIKE", Text = "discord.gg/cXwvDJvY7x", Duration = 10})
 local Beta = false
 local BetaKey = "xev0r_beta"
 local UIS = game:GetService("UserInputService")
@@ -331,16 +331,16 @@ local function PlayIntro()
     IB.BorderSizePixel = 0
 
     local IC = Instance.new("Frame", IB)
-    IC.Size = UDim2.new(0, 400, 0, 70)
-    IC.Position = UDim2.new(0.5, 0, 0.5, 0)
+    IC.Size = UDim2.new(0, 800, 0, 150)
+    IC.Position = UDim2.new(0.42, 0, 0.5, 0)
     IC.AnchorPoint = Vector2.new(0.5, 0.5)
     IC.BackgroundTransparency = 1
 
     local LB = Instance.new("TextLabel", IC)
-    LB.Text = "B"
+    LB.Text = "X"
     LB.Font = Enum.Font.GothamBlack
-    LB.TextSize = 80
-    LB.TextColor3 = Color3.fromRGB(255, 60, 160)
+    LB.TextSize = 120
+    LB.TextColor3 = Color3.fromRGB(150, 100, 255)
     LB.Size = UDim2.new(0.15, 0, 1, 0)
     LB.BackgroundTransparency = 1
     LB.TextTransparency = 1
@@ -348,10 +348,10 @@ local function PlayIntro()
     LB.Position = UDim2.new(0.5, 0, 0.5, 0)
 
     local LR = Instance.new("TextLabel", IC)
-    LR.Text = "ANKROLL"
+    LR.Text = "EV0R | BLOXSTRIKE"
     LR.Font = Enum.Font.GothamBlack
-    LR.TextSize = 80
-    LR.TextColor3 = Color3.fromRGB(255, 60, 160)
+    LR.TextSize = 120
+    LR.TextColor3 = Color3.fromRGB(150, 100, 255)
     LR.Size = UDim2.new(0.85, 0, 1, 0)
     LR.Position = UDim2.new(0.13, 0, 0, 0)
     LR.BackgroundTransparency = 1
@@ -400,8 +400,8 @@ UI.Parent = Parent
 UI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local Themes = {
-    Default = {Main = Color3.fromRGB(20, 20, 20), Item = Color3.fromRGB(30, 30, 30), Outline = Color3.fromRGB(60, 60, 60), Accent = Color3.fromRGB(255, 105, 180), Text = Color3.fromRGB(255, 255, 255), TextDim = Color3.fromRGB(150, 150, 150), TextStroke = Color3.fromRGB(0, 0, 0)},
-    Dark = {Main = Color3.fromRGB(15, 15, 15), Item = Color3.fromRGB(25, 25, 25), Outline = Color3.fromRGB(40, 40, 40), Accent = Color3.fromRGB(100, 100, 255), Text = Color3.fromRGB(240, 240, 240), TextDim = Color3.fromRGB(140, 140, 140), TextStroke = Color3.fromRGB(0, 0, 0)},
+    Default = {Main = Color3.fromRGB(15, 15, 25), Item = Color3.fromRGB(25, 15, 35), Outline = Color3.fromRGB(100, 50, 200), Accent = Color3.fromRGB(150, 100, 255), Text = Color3.fromRGB(255, 255, 255), TextDim = Color3.fromRGB(150, 150, 150), TextStroke = Color3.fromRGB(0, 0, 0)},
+    Dark = {Main = Color3.fromRGB(15, 15, 15), Item = Color3.fromRGB(25, 25, 25), Outline = Color3.fromRGB(40, 40, 40), Accent = Color3.fromRGB(80, 80, 80), Text = Color3.fromRGB(240, 240, 240), TextDim = Color3.fromRGB(140, 140, 140), TextStroke = Color3.fromRGB(0, 0, 0)},
     Light = {Main = Color3.fromRGB(240, 240, 240), Item = Color3.fromRGB(225, 225, 225), Outline = Color3.fromRGB(150, 150, 150), Accent = Color3.fromRGB(0, 140, 255), Text = Color3.fromRGB(255, 255, 255), TextDim = Color3.fromRGB(180, 180, 180), TextStroke = Color3.fromRGB(0, 0, 0)},
     Blood = {Main = Color3.fromRGB(20, 10, 10), Item = Color3.fromRGB(30, 15, 15), Outline = Color3.fromRGB(60, 30, 30), Accent = Color3.fromRGB(220, 40, 40), Text = Color3.fromRGB(255, 200, 200), TextDim = Color3.fromRGB(150, 100, 100), TextStroke = Color3.fromRGB(20, 0, 0)},
     Ocean = {Main = Color3.fromRGB(10, 20, 30), Item = Color3.fromRGB(15, 30, 45), Outline = Color3.fromRGB(30, 60, 90), Accent = Color3.fromRGB(0, 190, 255), Text = Color3.fromRGB(200, 240, 255), TextDim = Color3.fromRGB(100, 140, 160), TextStroke = Color3.fromRGB(0, 10, 20)},
@@ -410,7 +410,7 @@ local Themes = {
     Sunset = {Main = Color3.fromRGB(30, 20, 20), Item = Color3.fromRGB(45, 30, 30), Outline = Color3.fromRGB(80, 50, 50), Accent = Color3.fromRGB(255, 150, 50), Text = Color3.fromRGB(255, 230, 220), TextDim = Color3.fromRGB(180, 140, 130), TextStroke = Color3.fromRGB(20, 10, 10)}
 }
 
-local CurrentTheme = Themes.Default
+local CurrentTheme = Themes.Dark
 local ThemeRegistry = {}
 
 local function AddThemeObject(obj, tt)
@@ -530,7 +530,7 @@ local Config = {
     SpectatorList = false,
     FlashRemover = false,
     SmokeRemover = false,
-    Theme = "Default"
+    Theme = "Dark"
 }
 
 local DefaultConfig = DeepCopy(Config)
@@ -805,8 +805,8 @@ local UIE = {}
 local function CreateMainUI()
     local M = Instance.new("Frame")
     M.Name = "MainFrame"
-    M.Size = UDim2.new(0, 550, 0, 400)
-    M.Position = UDim2.new(0.5, -275, 0.5, -200)
+    M.Size = UDim2.new(0, 900, 0, 650)
+    M.Position = UDim2.new(0.5, -450, 0.5, -325)
     M.BorderSizePixel = 0
     M.Parent = UI
     AddThemeObject(M, "Main")
@@ -822,7 +822,7 @@ local function CreateMainUI()
     TB.Parent = M
 
     local T = Instance.new("TextLabel")
-    T.Text = "xev0r - free version"
+    T.Text = "xev0r | BLOXSTRIKE"
     T.Font = Enum.Font.ArialBold
     T.TextSize = 18
     T.Size = UDim2.new(1, 0, 1, 0)
@@ -869,7 +869,7 @@ local function CreateMainUI()
     local TBL = Instance.new("UIListLayout")
     TBL.FillDirection = Enum.FillDirection.Horizontal
     TBL.HorizontalAlignment = Enum.HorizontalAlignment.Left
-    TBL.Padding = UDim.new(0, 5)
+    TBL.Padding = UDim.new(0, 20)
     TBL.Parent = TBR
 
     UIE.Main = M
@@ -950,6 +950,18 @@ local function CreateTab(name)
         AddThemeObject(Btn, "Text")
     end)
 
+    Btn.MouseEnter:Connect(function()
+        if Ln.Visible == false then
+            Btn.TextColor3 = Color3.fromRGB(180, 130, 255)
+        end
+    end)
+
+    Btn.MouseLeave:Connect(function()
+        if Ln.Visible == false then
+            AddThemeObject(Btn, "TextDim")
+        end
+    end)
+
     if #Tabs == 0 then 
         Pg.Visible = true
         Ln.Visible = true
@@ -1025,6 +1037,18 @@ local function CreateSplitTab(name)
         AddThemeObject(Btn, "Text")
     end)
 
+    Btn.MouseEnter:Connect(function()
+        if Ln.Visible == false then
+            Btn.TextColor3 = Color3.fromRGB(180, 130, 255)
+        end
+    end)
+
+    Btn.MouseLeave:Connect(function()
+        if Ln.Visible == false then
+            AddThemeObject(Btn, "TextDim")
+        end
+    end)
+
     if #Tabs == 0 then 
         Container.Visible = true
         Ln.Visible = true
@@ -1077,6 +1101,14 @@ local function CreateToggle(p, t, c, k, cb)
         c[k] = not c[k]
         U()
         if cb then cb(c[k]) end 
+    end)
+
+    TB.MouseEnter:Connect(function()
+        Bx.BackgroundColor3 = Color3.fromRGB(180, 130, 255)
+    end)
+
+    TB.MouseLeave:Connect(function()
+        U()
     end)
 
     return F
@@ -1143,6 +1175,14 @@ local function CreateSlider(p, t, mn, mx, c, k, cb)
                 if kl then kl:Disconnect() end
             end 
         end)
+    end)
+
+    SB.MouseEnter:Connect(function()
+        SB.BackgroundColor3 = Color3.fromRGB(50, 30, 80)
+    end)
+
+    SB.MouseLeave:Connect(function()
+        AddThemeObject(SB, "Item")
     end)
 end
 
@@ -1277,6 +1317,14 @@ local function CreateColorPicker(p, t, c, k, cb)
         end
     end)
 
+    Pv.MouseEnter:Connect(function()
+        Pv.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+    end)
+
+    Pv.MouseLeave:Connect(function()
+        Pv.BackgroundColor3 = c[k]
+    end)
+
     return F
 end
 
@@ -1324,6 +1372,14 @@ local function CreateKeybind(p, t, c, k, cb)
             if cb then cb(ik) end
         end
     end)
+
+    BB.MouseEnter:Connect(function()
+        BB.BackgroundColor3 = Color3.fromRGB(50, 30, 80)
+    end)
+
+    BB.MouseLeave:Connect(function()
+        AddThemeObject(BB, "Item")
+    end)
 end
 
 local function CreateButton(p, t, cb)
@@ -1346,6 +1402,14 @@ local function CreateButton(p, t, cb)
 
     Instance.new("UICorner", Btn).CornerRadius = UDim.new(0, 4)
     Btn.MouseButton1Down:Connect(function() if cb then cb() end end)
+
+    Btn.MouseEnter:Connect(function()
+        Btn.BackgroundColor3 = Color3.fromRGB(50, 30, 80)
+    end)
+
+    Btn.MouseLeave:Connect(function()
+        AddThemeObject(Btn, "Item")
+    end)
 end
 
 local function CreateLabel(p, t, sz, al)
@@ -1572,7 +1636,7 @@ local SpectatorList, SpecLabel = CreateSpectatorList()
 
 AC(UIS.InputBegan:Connect(Safe(function(input)
     local typing = UIS:GetFocusedTextBox() ~= nil
-    if not typing and (input.KeyCode == Enum.KeyCode.RightShift or input.KeyCode == Enum.KeyCode.End or input.KeyCode == Enum.KeyCode.K or input.KeyCode == Enum.KeyCode.Home or input.KeyCode == Enum.KeyCode.Insert) then 
+    if not typing and input.KeyCode == Enum.KeyCode.Insert then 
         Main.Visible = not Main.Visible 
     end
     if not typing then
@@ -1593,97 +1657,97 @@ AC(UIS.InputBegan:Connect(Safe(function(input)
     end
 end)))
 
-local LegitTab = CreateTab("Legitbot")
-local MovementTab = CreateTab("Movement")
-local VisualsLeft, VisualsRight = CreateSplitTab("Visuals")
-local SkinLeft, SkinRight = CreateSplitTab("Skin Changer")
-local MiscTab = CreateTab("Misc")
-local SettingsLeft, SettingsRight = CreateSplitTab("Settings")
+local LegitTab = CreateTab("LEGITBOT")
+local MovementTab = CreateTab("MOVEMENT")
+local VisualsLeft, VisualsRight = CreateSplitTab("VISUALS")
+local SkinLeft, SkinRight = CreateSplitTab("SKIN CHANGER")
+local MiscTab = CreateTab("MISC")
+local SettingsLeft, SettingsRight = CreateSplitTab("SETTINGS")
 
 local visCheckFrames = {}
 
 local function SetupLegitTab()
-    CreateLabel(LegitTab, "aimbot", 14, Enum.TextXAlignment.Center)
-    CreateToggle(LegitTab, "Enabled", Config.Aimbot, "Enabled", function(v) if not v then G.AimbotActive = false end end)
-    CreateToggle(LegitTab, "Team Check", Config.Aimbot, "TeamCheck")
-    CreateToggle(LegitTab, "Alive Check", Config.Aimbot, "AliveCheck")
+    CreateLabel(LegitTab, "AIMBOT", 14, Enum.TextXAlignment.Center)
+    CreateToggle(LegitTab, "ENABLED", Config.Aimbot, "Enabled", function(v) if not v then G.AimbotActive = false end end)
+    CreateToggle(LegitTab, "TEAM CHECK", Config.Aimbot, "TeamCheck")
+    CreateToggle(LegitTab, "ALIVE CHECK", Config.Aimbot, "AliveCheck")
     CreateSlider(LegitTab, "FOV", 0, 500, Config.Aimbot, "FOV")
-    CreateSlider(LegitTab, "Smoothness", 1, 20, Config.Aimbot, "Smoothness")
-    CreateSingleDropdown(LegitTab, "Target Part", {"Head", "HumanoidRootPart", "Torso"}, Config.Aimbot, "TargetPart")
-    CreateToggle(LegitTab, "Wall Check", Config.Aimbot, "WallCheck")
-    CreateToggle(LegitTab, "Draw FOV", Config.Aimbot, "DrawFOV")
-    CreateKeybind(LegitTab, "Key", Config.Aimbot, "HoldKey")
-    CreateSingleDropdown(LegitTab, "Mode", {"Hold", "Toggle"}, Config.Aimbot, "Mode")
+    CreateSlider(LegitTab, "SMOOTHNESS", 1, 20, Config.Aimbot, "Smoothness")
+    CreateSingleDropdown(LegitTab, "TARGET PART", {"HEAD", "HUMANOIDROOTPART", "TORSO"}, Config.Aimbot, "TargetPart")
+    CreateToggle(LegitTab, "WALL CHECK", Config.Aimbot, "WallCheck")
+    CreateToggle(LegitTab, "DRAW FOV", Config.Aimbot, "DrawFOV")
+    CreateKeybind(LegitTab, "KEY", Config.Aimbot, "HoldKey")
+    CreateSingleDropdown(LegitTab, "MODE", {"HOLD", "TOGGLE"}, Config.Aimbot, "Mode")
 
-    CreateLabel(LegitTab, "triggerbot", 14, Enum.TextXAlignment.Center)
-    CreateToggle(LegitTab, "Triggerbot", Config.Triggerbot, "Enabled")
-    CreateToggle(LegitTab, "Triggerbot Team Check", Config.Triggerbot, "TeamCheck")
-    CreateKeybind(LegitTab, "Key", Config.Triggerbot, "HoldKey")
-    CreateSingleDropdown(LegitTab, "Trigger Mode", {"Hold", "Toggle"}, Config.Triggerbot, "Mode")
-    CreateSlider(LegitTab, "Triggerbot Delay (s)", 0, 1, Config.Triggerbot, "Delay")
+    CreateLabel(LegitTab, "TRIGGERBOT", 14, Enum.TextXAlignment.Center)
+    CreateToggle(LegitTab, "TRIGGERBOT", Config.Triggerbot, "Enabled")
+    CreateToggle(LegitTab, "TRIGGERBOT TEAM CHECK", Config.Triggerbot, "TeamCheck")
+    CreateKeybind(LegitTab, "KEY", Config.Triggerbot, "HoldKey")
+    CreateSingleDropdown(LegitTab, "TRIGGER MODE", {"HOLD", "TOGGLE"}, Config.Triggerbot, "Mode")
+    CreateSlider(LegitTab, "TRIGGERBOT DELAY (S)", 0, 1, Config.Triggerbot, "Delay")
 end
 SetupLegitTab()
 
 local function SetupVisualsTab()
-    CreateLabel(VisualsLeft, "player esp", 14, Enum.TextXAlignment.Center)
-    CreateToggle(VisualsLeft, "Enabled", Config.ESP, "Enabled", function(v) if not v then for _, e in pairs(ESP_.Players) do HidePlayerESP(e) end end end)
-    CreateToggle(VisualsLeft, "Team Check", Config.ESP, "TeamCheck")
-    CreateToggle(VisualsLeft, "Visibility Check", Config.ESP, "VisibilityCheck", function(v) for _, f in pairs(visCheckFrames) do pcall(function() f.Visible = v end) end end)
-    CreateSlider(VisualsLeft, "Max Distance", 100, 5000, Config.ESP, "MaxDistance")
-    CreateToggle(VisualsLeft, "Box", Config.ESP, "Box")
-    CreateToggle(VisualsLeft, "Box Outline", Config.ESP, "BoxOutline")
-    CreateSlider(VisualsLeft, "Box Thickness", 1, 5, Config.ESP, "BoxThickness")
-    CreateColorPicker(VisualsLeft, "Box Color", Config.ESP, "BoxColor")
-    local bvF = CreateColorPicker(VisualsLeft, "Box Visible", Config.ESP, "BoxVisibleColor")
+    CreateLabel(VisualsLeft, "PLAYER ESP", 14, Enum.TextXAlignment.Center)
+    CreateToggle(VisualsLeft, "ENABLED", Config.ESP, "Enabled", function(v) if not v then for _, e in pairs(ESP_.Players) do HidePlayerESP(e) end end end)
+    CreateToggle(VisualsLeft, "TEAM CHECK", Config.ESP, "TeamCheck")
+    CreateToggle(VisualsLeft, "VISIBILITY CHECK", Config.ESP, "VisibilityCheck", function(v) for _, f in pairs(visCheckFrames) do pcall(function() f.Visible = v end) end end)
+    CreateSlider(VisualsLeft, "MAX DISTANCE", 100, 5000, Config.ESP, "MaxDistance")
+    CreateToggle(VisualsLeft, "BOX", Config.ESP, "Box")
+    CreateToggle(VisualsLeft, "BOX OUTLINE", Config.ESP, "BoxOutline")
+    CreateSlider(VisualsLeft, "BOX THICKNESS", 1, 5, Config.ESP, "BoxThickness")
+    CreateColorPicker(VisualsLeft, "BOX COLOR", Config.ESP, "BoxColor")
+    local bvF = CreateColorPicker(VisualsLeft, "BOX VISIBLE", Config.ESP, "BoxVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = bvF
     bvF.Visible = Config.ESP.VisibilityCheck
-    local bhF = CreateColorPicker(VisualsLeft, "Box Hidden", Config.ESP, "BoxNotVisibleColor")
+    local bhF = CreateColorPicker(VisualsLeft, "BOX HIDDEN", Config.ESP, "BoxNotVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = bhF
     bhF.Visible = Config.ESP.VisibilityCheck
-    CreateToggle(VisualsLeft, "Box Fill", Config.ESP, "BoxFill")
-    CreateColorPicker(VisualsLeft, "Fill Color 1", Config.ESP, "BoxFillColor1")
-    CreateColorPicker(VisualsLeft, "Fill Color 2", Config.ESP, "BoxFillColor2")
-    CreateSlider(VisualsLeft, "Fill Transparency", 0, 1, Config.ESP, "BoxFillTransparency")
-    CreateSlider(VisualsLeft, "Fade Speed", 0.5, 10, Config.ESP, "BoxFillFadeSpeed")
-    CreateToggle(VisualsLeft, "Name", Config.ESP, "Name")
-    CreateSlider(VisualsLeft, "Name Size", 8, 24, Config.ESP, "NameSize")
-    CreateColorPicker(VisualsLeft, "Name Color", Config.ESP, "NameColor")
-    local nvF = CreateColorPicker(VisualsLeft, "Name Visible", Config.ESP, "NameVisibleColor")
+    CreateToggle(VisualsLeft, "BOX FILL", Config.ESP, "BoxFill")
+    CreateColorPicker(VisualsLeft, "FILL COLOR 1", Config.ESP, "BoxFillColor1")
+    CreateColorPicker(VisualsLeft, "FILL COLOR 2", Config.ESP, "BoxFillColor2")
+    CreateSlider(VisualsLeft, "FILL TRANSPARENCY", 0, 1, Config.ESP, "BoxFillTransparency")
+    CreateSlider(VisualsLeft, "FADE SPEED", 0.5, 10, Config.ESP, "BoxFillFadeSpeed")
+    CreateToggle(VisualsLeft, "NAME", Config.ESP, "Name")
+    CreateSlider(VisualsLeft, "NAME SIZE", 8, 24, Config.ESP, "NameSize")
+    CreateColorPicker(VisualsLeft, "NAME COLOR", Config.ESP, "NameColor")
+    local nvF = CreateColorPicker(VisualsLeft, "NAME VISIBLE", Config.ESP, "NameVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = nvF
     nvF.Visible = Config.ESP.VisibilityCheck
-    local nhF = CreateColorPicker(VisualsLeft, "Name Hidden", Config.ESP, "NameNotVisibleColor")
+    local nhF = CreateColorPicker(VisualsLeft, "NAME HIDDEN", Config.ESP, "NameNotVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = nhF
     nhF.Visible = Config.ESP.VisibilityCheck
-    CreateToggle(VisualsLeft, "Health", Config.ESP, "Health")
-    CreateToggle(VisualsLeft, "Custom HP Color", Config.ESP, "HealthBarCustom")
-    CreateColorPicker(VisualsLeft, "HP Bar Color", Config.ESP, "HealthBarColor")
-    CreateToggle(VisualsLeft, "Skeleton", Config.ESP, "Skeleton")
-    CreateSlider(VisualsLeft, "Skeleton Thickness", 1, 5, Config.ESP, "SkeletonThickness")
-    CreateColorPicker(VisualsLeft, "Skeleton Color", Config.ESP, "SkeletonColor")
-    local svF = CreateColorPicker(VisualsLeft, "Skeleton Visible", Config.ESP, "SkeletonVisibleColor")
+    CreateToggle(VisualsLeft, "HEALTH", Config.ESP, "Health")
+    CreateToggle(VisualsLeft, "CUSTOM HP COLOR", Config.ESP, "HealthBarCustom")
+    CreateColorPicker(VisualsLeft, "HP BAR COLOR", Config.ESP, "HealthBarColor")
+    CreateToggle(VisualsLeft, "SKELETON", Config.ESP, "Skeleton")
+    CreateSlider(VisualsLeft, "SKELETON THICKNESS", 1, 5, Config.ESP, "SkeletonThickness")
+    CreateColorPicker(VisualsLeft, "SKELETON COLOR", Config.ESP, "SkeletonColor")
+    local svF = CreateColorPicker(VisualsLeft, "SKELETON VISIBLE", Config.ESP, "SkeletonVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = svF
     svF.Visible = Config.ESP.VisibilityCheck
-    local shF = CreateColorPicker(VisualsLeft, "Skeleton Hidden", Config.ESP, "SkeletonNotVisibleColor")
+    local shF = CreateColorPicker(VisualsLeft, "SKELETON HIDDEN", Config.ESP, "SkeletonNotVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = shF
     shF.Visible = Config.ESP.VisibilityCheck
-    CreateToggle(VisualsLeft, "Head Dot", Config.ESP, "HeadDot")
-    CreateColorPicker(VisualsLeft, "Dot Color", Config.ESP, "HeadDotColor")
-    local dvF = CreateColorPicker(VisualsLeft, "Dot Visible", Config.ESP, "HeadDotVisibleColor")
+    CreateToggle(VisualsLeft, "HEAD DOT", Config.ESP, "HeadDot")
+    CreateColorPicker(VisualsLeft, "DOT COLOR", Config.ESP, "HeadDotColor")
+    local dvF = CreateColorPicker(VisualsLeft, "DOT VISIBLE", Config.ESP, "HeadDotVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = dvF
     dvF.Visible = Config.ESP.VisibilityCheck
-    local dhF = CreateColorPicker(VisualsLeft, "Dot Hidden", Config.ESP, "HeadDotNotVisibleColor")
+    local dhF = CreateColorPicker(VisualsLeft, "DOT HIDDEN", Config.ESP, "HeadDotNotVisibleColor")
     visCheckFrames[#visCheckFrames + 1] = dhF
     dhF.Visible = Config.ESP.VisibilityCheck
-    CreateToggle(VisualsLeft, "Highlight", Config.ESP, "Highlight")
-    CreateColorPicker(VisualsLeft, "HL Fill", Config.ESP, "HighlightFill")
-    CreateColorPicker(VisualsLeft, "HL Outline", Config.ESP, "HighlightOutline")
-    local hvF = CreateColorPicker(VisualsLeft, "HL Visible Fill", Config.ESP, "HighlightVisibleFill")
+    CreateToggle(VisualsLeft, "HIGHLIGHT", Config.ESP, "Highlight")
+    CreateColorPicker(VisualsLeft, "HL FILL", Config.ESP, "HighlightFill")
+    CreateColorPicker(VisualsLeft, "HL OUTLINE", Config.ESP, "HighlightOutline")
+    local hvF = CreateColorPicker(VisualsLeft, "HL VISIBLE FILL", Config.ESP, "HighlightVisibleFill")
     visCheckFrames[#visCheckFrames + 1] = hvF
     hvF.Visible = Config.ESP.VisibilityCheck
-    local hhF = CreateColorPicker(VisualsLeft, "HL Hidden Fill", Config.ESP, "HighlightHiddenFill")
+    local hhF = CreateColorPicker(VisualsLeft, "HL HIDDEN FILL", Config.ESP, "HighlightHiddenFill")
     visCheckFrames[#visCheckFrames + 1] = hhF
     hhF.Visible = Config.ESP.VisibilityCheck
-    CreateToggle(VisualsLeft, "Distance", Config.ESP, "Distance")
+    CreateToggle(VisualsLeft, "DISTANCE", Config.ESP, "Distance")
     CreateColorPicker(VisualsLeft, "Distance Color", Config.ESP, "DistanceColor")
     CreateToggle(VisualsLeft, "Current Weapon", Config.ESP.CurrentWeapon, "Enabled")
     CreateColorPicker(VisualsLeft, "Weapon Color", Config.ESP.CurrentWeapon, "Color")
@@ -2073,6 +2137,11 @@ local function SetupSettingsTab()
         end
         RU(Config, DefaultConfig)
         RefreshUI() 
+    end)
+    CreateButton(SettingsLeft, "KILL SCRIPT", function() 
+        if getgenv().Xev0rCleanup then 
+            getgenv().Xev0rCleanup() 
+        end
     end)
 
     CreateLabel(SettingsRight, "-- File Config System --", 14, Enum.TextXAlignment.Center)
